@@ -4,10 +4,13 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
+import { VelocityScroll } from "./ui/scroll-based-velocity";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <div>
+      <VelocityScroll>My Builds</VelocityScroll>
+       <div className="py-20">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
@@ -77,6 +80,8 @@ const RecentProjects = () => {
         ))}
       </div>
     </div>
+    </div>
+  
   );
 };
 

@@ -1,9 +1,13 @@
 import { gridItems } from "@/data";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
+import { VelocityScroll } from "./ui/scroll-based-velocity";
 
 const Grid = () => {
   return (
     <section id="about">
+      <div>
+      <VelocityScroll>Know me more.</VelocityScroll>
+      </div>
       <BentoGrid className="w-full py-20">
         {gridItems.map((item, i) => (
           <BentoGridItem

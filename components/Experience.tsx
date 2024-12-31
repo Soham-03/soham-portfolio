@@ -2,10 +2,13 @@ import React from "react";
 
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
+import { VelocityScroll } from "./ui/scroll-based-velocity";
 
 const Experience = () => {
   return (
-    <div className="py-20 w-full">
+    <div>
+      <VelocityScroll>Past Work</VelocityScroll>
+      <div className="py-20 w-full">
       <h1 className="heading">
         My <span className="text-purple">work experience</span>
       </h1>
@@ -47,6 +50,7 @@ const Experience = () => {
           </Button>
         ))}
       </div>
+    </div>
     </div>
   );
 };
