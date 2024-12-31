@@ -44,7 +44,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            what's good? 🤘
+            whats good? 🤘
           </p>
 
           <div className="relative group mt-8 mb-6">
@@ -65,7 +65,7 @@ const Hero = () => {
 
           <div className={`transition-opacity duration-1000 ${showIntro ? 'opacity-100' : 'opacity-0'}`}>
             <p className="text-center md:tracking-wider mb-2 text-sm md:text-lg lg:text-xl mt-4">
-              Yo! I'm <span className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text">SOHAM</span> — The dev who means business
+              Yo! Im <span className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text">SOHAM</span> — The dev who means business
             </p>
           </div>
           
